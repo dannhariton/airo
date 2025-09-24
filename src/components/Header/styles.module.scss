@@ -1,0 +1,47 @@
+.container {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  height: 6rem;
+  background-color: #242c35;
+  box-sizing: 0 0.3rem 0 0 rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+
+  &-notification {
+    color: white;
+    margin-right: 2rem;
+  }
+
+  &-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 0.8rem;
+  }
+
+  &-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 4rem;
+    height: 4rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

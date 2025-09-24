@@ -1,0 +1,149 @@
+.drawer {
+  :global(.MuiDrawer-paper) {
+    background-color: #30363d;
+    color: #fff;
+    width: 36rem;
+    height: 100%;
+    margin-top: 6rem;
+    padding: 3.6rem 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+  }
+}
+
+.header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  vertical-align: middle;
+  color: #fff;
+
+  button {
+    color: #fff;
+  }
+}
+
+.image-container {
+  margin-top: 10rem;
+  width: 14.2rem;
+  aspect-ratio: 1.45;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 3.5rem;
+}
+
+.cta {
+  width: 100%;
+  color: #fff;
+  margin: 10rem 3.5rem 0;
+  padding: 1.2rem 0;
+  border-radius: 0.2rem;
+  background-color: #6202ee;
+  font-size: 1.6rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.user {
+  &-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      color: #fff;
+    }
+  }
+
+  &-image-container {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-name-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1.6rem;
+  }
+
+  &-name {
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+  }
+
+  &-tag {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  &-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3.2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    background-color: #6202ee;
+
+    &--privacy {
+      text-decoration: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    &--sign-out-button {
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+}
+
+.devices-list {
+  margin-top: 3.4rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+.add-button {
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
