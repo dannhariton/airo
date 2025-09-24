@@ -15,7 +15,7 @@ export default function Header() {
 
       <div className={styles["user"]}>
         <button className={styles["user-notification"]}>
-          <NotificationsOutlined />
+          <NotificationsOutlined fontSize="large" />
         </button>
         <button
           className={styles["user-profile"]}
@@ -30,7 +30,7 @@ export default function Header() {
           <span className={styles["user-name"]}>
             {currentUser ? currentUser?.displayName?.split(" ")[0] : "Account"}
           </span>
-          <ArrowDropDownIcon />
+          <ArrowDropDownIcon fontSize="large" />
         </button>
       </div>
     </header>

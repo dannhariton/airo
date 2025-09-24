@@ -19,14 +19,14 @@ export default function BottomBar() {
       <div className={styles["buttons-group"]}>
         <div className={styles["buttons-group--zoom"]}>
           <button onClick={handleZoomIn} className={styles.button}>
-            <AddIcon />
+            <AddIcon fontSize="large" />
           </button>
           <button onClick={handleZoomOut} className={styles.button}>
-            <RemoveIcon />
+            <RemoveIcon fontSize="large" />
           </button>
         </div>
         <button onClick={handleCurrentLocation} className={styles.button}>
-          <GpsFixedIcon />
+          <GpsFixedIcon fontSize="large" />
         </button>
       </div>
       <SidebarDrawer />

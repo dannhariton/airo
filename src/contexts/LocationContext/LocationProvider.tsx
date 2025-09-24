@@ -13,6 +13,7 @@ export const LocationProvider = ({ children }: { children: ReactNode }) => {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
         });
+
         setCoords((prev) => {
           return {
             ...prev,

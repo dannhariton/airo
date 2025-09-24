@@ -5,15 +5,19 @@
   align-items: flex-end;
   justify-content: space-between;
   position: absolute;
-  padding: 0 40px 28px;
+  padding: 0 4rem 2.8rem;
   color: #828282;
 }
 
 .company-info {
   display: flex;
   align-items: flex-start;
-  gap: 12px;
+  gap: 1.2rem;
   flex-grow: 1;
+}
+
+.copyrights {
+  font-size: 1.4rem;
 }
 
 .button {
@@ -22,17 +26,17 @@
   justify-content: center;
   color: white;
   background-color: #7a1eff;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .buttons-group {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 2rem;
 
   &--zoom {
-    gap: 1px;
+    gap: 0.1rem;
     display: flex;
     flex-direction: column;
   }

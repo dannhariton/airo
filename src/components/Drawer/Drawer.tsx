@@ -15,7 +15,7 @@ export default function SidebarDrawer() {
       <div className={styles.header}>
         <div className={styles.title}>Settings</div>
         <button onClick={() => toggleDrawer(false)}>
-          <Close />
+          <Close fontSize="large" />
         </button>
       </div>
       <div className={styles["image-container"]}>
@@ -31,7 +31,7 @@ export default function SidebarDrawer() {
       </button>
       <a href="/" className={styles.link}>
         About this application
-        <ArrowForward fontSize="small" />
+        <ArrowForward fontSize="large" />
       </a>
     </>
   );
@@ -60,7 +60,7 @@ export default function SidebarDrawer() {
             </div>
           </div>
           <button onClick={() => toggleDrawer(false)}>
-            <Close />
+            <Close fontSize="large" />
           </button>
         </div>
         <div className={styles["devices-list"]}>
@@ -72,14 +72,14 @@ export default function SidebarDrawer() {
             href="http://gdpr-info.eu/"
             className={styles["user-actions--privacy"]}
           >
-            <Shield />
+            <Shield fontSize="large" />
             Privacy
           </a>
           <button
             onClick={logout}
             className={styles["user-actions--sign-out-button"]}
           >
-            <Logout />
+            <Logout fontSize="large" />
             Sing Out
           </button>
         </div>
@@ -90,7 +90,7 @@ export default function SidebarDrawer() {
   return (
     <Drawer
       open={open}
-      sx={open ? { width: "360px" } : {}}
+      sx={open ? { width: "36rem" } : {}}
       hideBackdrop
       onClose={() => toggleDrawer(false)}
       anchor="right"

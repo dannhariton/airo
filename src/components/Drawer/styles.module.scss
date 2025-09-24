@@ -2,20 +2,20 @@
   :global(.MuiDrawer-paper) {
     background-color: #30363d;
     color: #fff;
-    width: 360px;
+    width: 36rem;
     height: 100%;
-    margin-top: 60px;
-    padding: 36px 16px;
+    margin-top: 6rem;
+    padding: 3.6rem 1.6rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 3.2rem;
   }
 }
 
 .header {
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   display: flex;
   width: 100%;
@@ -29,8 +29,8 @@
 }
 
 .image-container {
-  margin-top: 100px;
-  width: 142px;
+  margin-top: 10rem;
+  width: 14.2rem;
   aspect-ratio: 1.45;
 
   img {
@@ -41,19 +41,20 @@
 }
 
 .description {
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-  margin: 0 35px;
+  margin: 0 3.5rem;
 }
 
 .cta {
   width: 100%;
   color: #fff;
-  margin: 100px 35px 0;
-  padding: 12px 0;
-  border-radius: 2px;
+  margin: 10rem 3.5rem 0;
+  padding: 1.2rem 0;
+  border-radius: 0.2rem;
   background-color: #6202ee;
+  font-size: 1.6rem;
 }
 
 .link {
@@ -61,6 +62,7 @@
   color: #fff;
   display: flex;
   align-items: center;
+  font-size: 1.6rem;
 }
 
 .user {
@@ -76,7 +78,7 @@
   }
 
   &-image-container {
-    width: 60px;
+    width: 6rem;
     aspect-ratio: 1/1;
     border-radius: 100%;
     overflow: hidden;
@@ -91,17 +93,17 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-left: 16px;
-    font-family: "Source Sans 3", sans-serif;
+    margin-left: 1.6rem;
   }
 
   &-name {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
+    font-size: 1.6rem;
   }
 
   &-tag {
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 400;
   }
 
@@ -110,8 +112,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 32px;
-    font-size: 14px;
+    padding: 2rem 3.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
     background-color: #6202ee;
 
@@ -120,28 +122,28 @@
       color: #fff;
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 2rem;
     }
 
     &--sign-out-button {
       color: #fff;
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 2rem;
     }
   }
 }
 
 .devices-list {
-  margin-top: 34px;
+  margin-top: 3.4rem;
   display: flex;
   flex-direction: column;
+  font-size: 1.6rem;
 }
 
 .add-button {
-  margin-top: 24px;
-  font-size: 15px;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: 0.15px;
   color: white;
 }

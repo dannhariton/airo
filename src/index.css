@@ -26,6 +26,10 @@ ol[role="list"] {
   list-style: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -36,11 +40,13 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-size: 62.5%;
 }
 
 /* A elements that don't have a class get default styles */
 a {
   text-decoration: none;
+  font-size: inherit;
 }
 
 a:not([class]) {

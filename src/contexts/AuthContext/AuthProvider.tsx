@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
     }
   }
 
-  async function logout() {
+  function logout() {
     signOut(auth);
   }
 

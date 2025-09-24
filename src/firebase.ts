@@ -18,6 +18,5 @@ provider.setCustomParameters({
 });
 
 export const auth = getAuth();
-// auth.setPersistence(browserLocalPersistence);
 export const signInWithGooglePopup = () => signInWithPopup(auth, provider);
 export default app;
